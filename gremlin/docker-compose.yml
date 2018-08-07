@@ -1,0 +1,9 @@
+titan:
+    image: itzg/titan-gremlin
+    links:
+        - cass
+        - es
+cass:
+    image: itzg/cassandra
+es:
+    image: itzg/elasticsearch:1.x
